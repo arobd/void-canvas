@@ -16,7 +16,7 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <div class="container">
-      <h1>VoidCanvas</h1>
+      <h1><?php echo get_bloginfo( 'name' ); ?></h1>
       <p>This website is not for public access.</p>
       <p>Only available for API clients.</p>
       <p>Contact administrator if anyone wants to consume the API.</p>
